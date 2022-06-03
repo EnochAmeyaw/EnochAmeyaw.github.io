@@ -799,30 +799,27 @@ body {
     cursor: pointer;
 }
 .deg0 { transform: translate(12em); justify-content: center;} /* 12em = half the width of the wrapper */
-.deg60 { transform: rotate(60deg) translate(12em) rotate(-60deg); justify-content: center;}
-.deg120 { transform: rotate(120deg) translate(12em) rotate(-120deg);justify-content: center; }
-.deg180 { transform: translate(-12em); justify-content: center;}
-.deg240 { transform: rotate(240deg) translate(12em) rotate(-240deg); justify-content: center;}
-.deg300 { transform: rotate(300deg) translate(12em) rotate(-300deg); justify-content: center;}
+.deg72 { transform: rotate(72deg) translate(12em) rotate(-72deg); justify-content: center;}
+.deg144 { transform: rotate(144deg) translate(12em) rotate(-144deg);justify-content: center; }
+.deg216 { transform: rotate(216deg) translate(12em) rotate(-216deg); justify-content: center;}
+.deg288 { transform: rotate(288deg) translate(12em) rotate(-288deg); justify-content: center;}
 @media screen and (max-width: 960px) {
-    .deg0 { transform: translate(9em);} /* 12em = half the width of the wrapper */
-    .deg60 { transform: rotate(60deg) translate(9em) rotate(-60deg); }
-    .deg120 { transform: rotate(120deg) translate(9em) rotate(-120deg); }
-    .deg180 { transform: translate(-9em); }
-    .deg240 { transform: rotate(240deg) translate(9em) rotate(-240deg); }
-    .deg300 { transform: rotate(300deg) translate(9em) rotate(-300deg); }
+    .deg0 { transform: translate(9em);}
+    .deg72 { transform: rotate(72deg) translate(9em) rotate(-72deg); }
+    .deg144 { transform: rotate(144deg) translate(9em) rotate(-144deg); }
+    .deg216 { transform: rotate(216deg) translate(9em) rotate(-216deg); }
+    .deg288 { transform: rotate(288deg) translate(9em) rotate(-288deg); }
     .circle-container h2{
         font-size: 4rem;
         padding-top: 30px;
     }
 }
 @media screen and (max-width: 660px) {
-    .deg0 { transform: translate(7em);} /* 12em = half the width of the wrapper */
-    .deg60 { transform: rotate(60deg) translate(7em) rotate(-60deg); }
-    .deg120 { transform: rotate(120deg) translate(7em) rotate(-120deg); }
-    .deg180 { transform: translate(-7em); }
-    .deg240 { transform: rotate(240deg) translate(7em) rotate(-240deg); }
-    .deg300 { transform: rotate(300deg) translate(7em) rotate(-300deg); }
+    .deg0 { transform: translate(7em);}
+    .deg72 { transform: rotate(72deg) translate(7em) rotate(-72deg); }
+    .deg144 { transform: rotate(144deg) translate(7em) rotate(-144deg); }
+    .deg216 { transform: rotate(216deg) translate(7em) rotate(-216deg); }
+    .deg288 { transform: rotate(288deg) translate(7em) rotate(-288deg); }
     .circle-container h2{
         font-size: 4rem;
         padding-top: 30px;
